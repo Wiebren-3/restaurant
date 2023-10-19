@@ -13,9 +13,9 @@ body {
 }
 
 .navbar-head {
-    font-family: Luckiest Guy;
+    font-family: 'Luckiest Guy', cursive;
     font-size: 17.5px;
-    font-weight: regular;
+    font-weight: normal;
     color: #FFFFFF;
     padding: 10px 0;
     margin-left: 29%;
@@ -40,18 +40,18 @@ body {
 }
 
 .navbar-item {
-    font-family: Luckiest Guy;
+    font-family: 'Luckiest Guy', cursive;
     font-size: 18.5px;
     color: #FFFFFF;
     padding: 10px 0;
     text-decoration: none;
-    font-style: regular;
+    font-weight: normal;
     margin-left: 5%;
     display: block;
 }
 
 .page-header {
-    font-family: Luckiest Guy;
+    font-family: 'Luckiest Guy', cursive;
     font-size: 25px;
     font-weight: italic;
     color: #000000;
@@ -60,7 +60,7 @@ body {
 }
 
 .page-body {
-    font-family: Mclaren;
+    font-family: 'Mclaren', cursive;
     font-size: 15px;
     color: #000000;
     padding: 20px 0;
@@ -75,4 +75,63 @@ body {
     position: absolute;
     left: 77%;
     top: 10%;
+}
+
+.container-regulier,
+.container-lunch,
+.container-dranken,
+.container-ingroups {
+    width: 20%;
+    height: 40%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-left: 20%;
+    margin-top: 1%;
+    float: left;
+}
+
+.container-regulier a,
+.container-lunch a,
+.container-dranken a,
+.container-ingroups a {
+    text-decoration: none; /* Verwijder onderstreping */
+}
+
+.img-regulier,
+.img-lunch,
+.img-dranken,
+.img-ingroups {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.head-regulier,
+.head-lunch,
+.head-dranken,
+
+.head-ingroups {
+    font-family: 'Luckiest Guy';
+    font-size: 18.5px;
+    color: #000000;
+    padding: 10px 0;
+    text-decoration: none;
+    font-weight: normal;
+    margin-left: 5%;
+    display: block;
+    margin-top: -5%;
+}
+
+.body-regulier,
+.body-lunch,
+.body-dranken,
+.body-ingroups {
+    font-family: 'McLaren';
+    font-size: 10px;
+    width: 70%;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: -10%;
+    color: #000000;
 }
